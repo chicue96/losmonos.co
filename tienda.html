@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="css/tienda.css">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+</head>
+<body>
+    <header>
+        <div class="index">
+            <a href="https://www.losmonos.co/">
+                <img src="img/logo.png" alt="Logo Los Monos" class="logo-index"> 
+            </a>  
+        </div> 
+        
+        <div class="container-icon">            
+            <div class="container-cart-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-cart">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+                <div class="count-products">
+                    <span id="contador-productos">0</span>
+                </div> 
+            </div>            
+            <div class="container-cart-products hidden-cart">
+                <div class="row-product hidden">
+                    <div class="cart-product">
+                        <div class="info-cart-product">
+                            <span class="cantidad-producto-carrito"></span>
+                            <p class="titulo-producto-carrito"></p>
+                            <span class="precio-producto-carrito"></span>
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-close">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>
+                    </div>
+                </div>
+                <div class="cart-total hidden">
+                    <h3>Total:</h3>
+                    <span class="total-pagar">$1375000</span>
+                </div>
+                <p class="cart-empty">El carrito está vacío</p>
+            </div> 
+        </div>
+    </header>
+
+
+    <div class="container-items">
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\1-Laptop-Compumax-Onix-Series-N100\Laptop-Compumax-Onix-Series-N100-1.png" alt="Laptop Compumax Onix Series N100">
+            </figure>
+            <div class="info-product">
+                <h2>Laptop Compumax Onix Series N100</h2>
+                <p class="price">$990000</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\2-Laptop-Compumax-Ryzen-3-8GB-RAM-512SSD-14Inch\1-Laptop-Compumax-Ryzen-3-8GB-RAM-512SSD-14Inch.png" alt="Laptop Compumax Ryzen 3 8GB RAM 512SSD 14Inch">
+            </figure>
+            <div class="info-product">
+                <h2>Laptop Compumax Ryzen 3 8GB RAM 512SSD 14"</h2>
+                <p class="price">$1375000</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\3-Licuadora-Universal-Ultra+Vaso-Picador\1-Licuadora-Universal-Ultra+Vaso-Picador.png" alt="Licuadora Universal Ultra + vaso picador">
+            </figure>
+            <div class="info-product">
+                <h2>Licuadora Universal Ultra + vaso picador</h2>
+                <p class="price">$246000</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\4-Licuadora-Samurai-Optimix-Plus-500W\1-Licuadora-Samurai-Optimix-Plus-500W.jpg" alt="Licuadora Samurai Optimix Plus 500W">
+            </figure>
+            <div class="info-product">
+                <h2>Licuadora Samurai Optimix Plus 500W</h2>
+                <p class="price">$88000</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\5-Congelador-JLC-198L-Horizontal-1P\1-Congelador-JLC-198L-Horizontal-1P.jpg" alt="Congelador JLC 198L Horizontal 1P">
+            </figure>
+            <div class="info-product">
+                <h2>Congelador JLC 198L Horizontal 1P</h2>
+                <p class="price">$1159900</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\6-Congelador-JLC-249L-Horizontal-1P\1-Congelador-JLC-249L-Horizontal-1P.jpg" alt="Congelador JLC 249L Horizontal 1P">
+            </figure>
+            <div class="info-product">
+                <h2>Congelador JLC 249L Horizontal 1P</h2>
+                <p class="price">$1214900</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\7-Nevera-Haceb-220L-Manija-Interna\1-Nevera-Haceb-220L-Manija-Interna.png" alt="Nevera Haceb 220L Manija Interna">
+            </figure>
+            <div class="info-product">
+                <h2>Nevera Haceb 220L Manija Interna</h2>
+                <p class="price">$1485000</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\8-Nevera-Mabe-210L-1P-Grafito\1-Nevera-Mabe-210L-1P-Grafito.jpg" alt="Nevera Mabe 210L 1P Grafito">
+            </figure>
+            <div class="info-product">
+                <h2>Nevera Mabe 210L 1P Grafito</h2>
+                <p class="price">$1361900</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\9-Televisor-Kalley-32-GTV\1-Televisor-Kalley-32-GTV.png" alt="Televisor Kalley 32Inch GTV">
+            </figure>
+            <div class="info-product">
+                <h2>Televisor Kalley 32" GoogleTV</h2>
+                <p class="price">$780900</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+        <div class="item">
+            <figure>
+                <img src="imgs-catalogo\10-Televisor-Kalley-Basico-32\1-Televisor-Kalley-Basico-32.png" alt="Televisor Kalley Basico 32Inch">
+            </figure>
+            <div class="info-product">
+                <h2>Televisor Kalley Basico 32"</h2>
+                <p class="price">$611900</p>
+                <button class="btn-add-cart">Agregar al carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/tienda.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+*::after,
+*::before,
+* {
+    height: 100%;
+    
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+body{
+    max-width: 1200px;
+    font-family: "Montserrat", sans-serif;
+    margin: 0 auto;
+    color: #21204c;
+}
+.icon-cart{
+    width: 40px;
+    height: 40px;
+}
+.index{
+    padding-left: 1%;
+    padding-top: 0.8%;
+}
+.logo{
+    width: 75px;
+    height: auto; 
+    display: block;
+}
