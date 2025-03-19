@@ -11,6 +11,22 @@ body, html {
     align-items: center;
     background-color: #ffffff;
 }
+.bitacora {
+    position: absolute;
+    top: 0;
+    left: 20px;
+    padding: 10px;
+    background: #fff;
+}
+
+.bitacora a {
+    color: rgb(0, 14, 59);
+    text-decoration: none;
+}
+
+.bitacora a:hover {
+    text-decoration: underline;
+}
 
 .lista {
     position: absolute;
